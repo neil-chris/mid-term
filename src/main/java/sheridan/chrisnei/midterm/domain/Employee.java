@@ -1,9 +1,13 @@
-package sheridan.chrisnei.employeemanagementsystem.domain;
+package sheridan.chrisnei.midterm.domain;
+
+import javax.validation.constraints.NotBlank;
 
 /**
  * A class that models an employee
  */
 public class Employee {
+
+    @NotBlank(message = "Name cannot be blank")
     private String name;
     private Status status;
     private boolean trained;

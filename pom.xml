@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>sheridan.chrisnei</groupId>
-    <artifactId>employee-management-system</artifactId>
+    <artifactId>midterm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Employee Management System</name>
     <description>Demo project for Spring Boot</description>
@@ -60,6 +60,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+<!--                    <mainClass>sheridan.chrisnei.employeemanagementsystem.EmployeeManagementSystemApplication</mainClass>-->
                 </configuration>
             </plugin>
         </plugins>

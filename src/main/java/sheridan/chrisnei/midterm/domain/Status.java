@@ -1,4 +1,4 @@
-package sheridan.chrisnei.employeemanagementsystem.domain;
+package sheridan.chrisnei.midterm.domain;
 
 /**
  * The work status of the employee

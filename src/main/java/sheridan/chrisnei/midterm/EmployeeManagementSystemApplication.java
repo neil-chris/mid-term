@@ -1,4 +1,4 @@
-package sheridan.chrisnei.employeemanagementsystem;
+package sheridan.chrisnei.midterm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

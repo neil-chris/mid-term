@@ -1,4 +1,4 @@
-package sheridan.chrisnei.midterm.domain;
+package sheridan.chrisnei.employeemanagementsystem.domain;
 
 import javax.validation.constraints.NotBlank;
 

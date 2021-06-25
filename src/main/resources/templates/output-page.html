@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="ISO-8859-1">
-    <title>Add Pet</title>
+    <title>Output Page</title>
     <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
 </head>
 <body>
@@ -20,7 +20,10 @@
         <label class="form-check-label" for="certified-field">Certified</label>
         <input type="text" th:field="*{certified}" class="form-control mb-4 col-4" id="certified-field" th:readonly="true">
     </form>
+    <a th:href = "@{/employee}"> Back to Pet List</a>
     <hr>
 </div>
 </body>
+<br></br>
+<footer>Sheridan College: Neilsmith Christian</footer>
 </html>
